@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
-function HomePage() {
+function HomePage(){
   const Navigate = useNavigate();
   const naviagtetologin = () => {
     Navigate("/login");
